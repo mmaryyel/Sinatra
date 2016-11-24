@@ -1,20 +1,40 @@
-  <h1>Bienvenido a Sinatra!</h1>
+  
+  <strong>
+    <h1>Bienvenido a Sinatra!</h1>
+  </strong>
   <p>Este es un esqueleto de sinatra que armamos para ti</p>
+  
 
     <form action='/cool_url' method='post'>
-       Nombre:<br>
-       <input type="text" name="firstname"><br><br>
-       Last_name:<br>
-       <input type="text" name="last_name"><br><br>
-       Age:<br>
-        <input type="text" name="age"><br><br>
+      Nombre:<br>
+      <input type="text" name="firstname"><br><br>
+      Last_name:<br>
+      <input type="text" name="last_name"><br><br>
+      Age:<br>
+      <input type="text" name="age"><br><br>
+      
+      Hobbies:<br>
+      <input type="radio" name="hobbie" value="Dancing"> Dancing<br>
+      <input type="radio" name="hobbie" value="Painting"> Painting<br>
+      <input type="radio" name="hobbie" value="Programing">Programing<br><br>
+
+      Favorite food:<br>
+      <select name="Favorite food">
+        <option value="sushi">sushi</option>
+        <option value="Spaguetti">spaguetti</option>
+        <option value="Tacos">tacos</option>
+      </select>
+      <br><br>
         <input type="submit" value="Submit">
       </form><br><br>
 
-   
 
     <form action='/cool_url' method='get'>
-       Ocupation:<br>
-        <input type="text" name="ocupation"><br><br>
-        <input type="submit" value="Submit">
+      Ocupation:<br>
+      <input type="checkbox" name="option1" value="Designer"> Designer<br>
+      <input type="checkbox" name="option2" value="Programer" checked>Programer<br>
+      <input type="checkbox" name="option3" value="Dancer">Dancer<br>
       </form><br><br>
+
+    <form action='/cool_url' method='post'>
+   
